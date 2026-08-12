@@ -1,0 +1,21 @@
+package iaroslav.baranov.tracklog.lexer;
+
+public enum TokenType {
+    END_TOKEN,
+    COMMA_TOKEN,
+    OPEN_TOKEN, CLOSE_TOKEN,
+    OPEN_CURLY, CLOSE_CURLY,
+    OPEN_LIST_TOKEN, CLOSE_LIST_TOKEN,
+    HEAD_TAIL_SEPARATOR_TOKEN,
+    VARIABLE_TOKEN,
+    LETTER_DIGIT_TOKEN,
+    QUOTED_TOKEN,
+    SEMICOLON_TOKEN,
+    CUT_TOKEN,
+    GRAPHIC_TOKEN,
+    INTEGER_TOKEN,
+    FLOAT_NUMBER_TOKEN,
+    DOUBLE_QUOTED_LIST_TOKEN
+}
+
+//No NAME_TOKEN because it is a group
